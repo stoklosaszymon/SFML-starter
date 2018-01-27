@@ -52,6 +52,10 @@ void Game::processEvents()
 	}
 }
 
+void Game::update(sf::Time elapsedTime)
+{
+}
+
 void Game::render()
 {
 	mWindow.clear();
